@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/txt_goods_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@id/txt_goods_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_goods_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:gravity="center" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/subtract_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="-"
+            android:textSize="16sp"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center"
+            android:background="@drawable/subtract_btn_bg" />
+
+        <TextView
+            android:id="@+id/txt_goods_counts"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            android:text="0"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/plus_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="+"
+            android:textSize="16sp"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="end|center_vertical"
+            android:gravity="center"
+            android:background="@drawable/subtract_btn_bg" />
+    </LinearLayout>
+
+
+</LinearLayout>

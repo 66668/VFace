@@ -1,0 +1,38 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="background">#004be5</color>
+
+    
+     <color name="global_gray_bg">#f0f0f0</color>
+    <color name="window_bg">#ffeef1f3</color>
+    <color name="page_bg">#fcfcfc</color> <!-- 顶部标题的背景色 -->
+    <color name="qqblue">#ff54acea</color>
+    <color name="transparent">#00000000</color>
+    <color name="title_bg">#004be5</color> 
+    <color name="title_forecolor">#FFF</color> 
+    <color name="bar_bg">#004be5</color>
+    <color name="bar_forecolor_on">#FFF</color> 
+    <color name="bar_forecolor_off">#FFF</color> 
+    <color name="bar_line">#bbbbbb</color>
+    <color name="head">#000</color> 
+    <color name="subhead">#767676</color>
+    <color name="app_bg">#fff</color> 
+
+    <color name="line">#b6b6b6</color> <!-- 分割线 -->
+
+    <color name="btn_bg">#ff6a08</color> <!-- 按钮背景色 -->
+    <color name="btn_bg_on">#c36500</color> <!-- 按钮背景色(按住) -->
+    <color name="btn_bg_off">#b6b6b6</color>
+    <color name="edit_unclickable_color">#cccccc</color>
+    <!-- 按钮背景色(失效状态) -->
+
+    <drawable name="btn_bg">#ffda10</drawable> <!-- 按钮背景色 -->
+    <drawable name="btn_bg_on">#e9c70b</drawable> <!-- 按钮背景色(按住) -->
+    <drawable name="btn_bg_off">#b6b6b6</drawable> <!-- 按钮背景色(失效状态) -->
+
+ 
+    
+    
+    
+</resources>

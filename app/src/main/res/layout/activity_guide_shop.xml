@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/common_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_top_bar_layout_with_backbtn" />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="16dp"-->
+        <!--android:background="#ffffff">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/user_tips"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="会员："-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="#999999" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/user_name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@+id/user_tips"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="#666666"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/phone_tips"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="手机："-->
+            <!--android:textSize="14sp"-->
+            <!--android:layout_below="@+id/user_tips"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="#999999" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/phone"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignBaseline="@+id/phone_tips"-->
+            <!--android:layout_toRightOf="@+id/phone_tips"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="#666666"-->
+            <!--android:text="18555555553" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/card_tips"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/phone_tips"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="会员卡号："-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="#999999" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/card_num"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@+id/card_tips"-->
+            <!--android:layout_alignBaseline="@+id/card_tips"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="#666666"-->
+            <!--android:text="39876543" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/card_level_tips"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@+id/card_num"-->
+            <!--android:layout_alignBaseline="@+id/card_tips"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="级别："-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="#999999" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/card_level"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@+id/card_level_tips"-->
+            <!--android:layout_alignBaseline="@+id/card_level_tips"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="#666666"-->
+            <!--android:text="金卡" />-->
+
+    <!--</RelativeLayout>-->
+
+    <include layout="@layout/activity_user_info_header"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d6d6d6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="品名"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="编码"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="单价(元)"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="数量"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d6d6d6" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#d6d6d6"
+        android:dividerHeight="1px" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:onClick="submit"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_style"
+        android:text="确认"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
